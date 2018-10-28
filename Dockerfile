@@ -12,5 +12,5 @@ COPY . /myapp
 # suoritetaan node.js sovelluksemmee kontainerin sisällä
 CMD ["npm", "start"]
 
-# vinkataan portin 80 olevan se mikä halutaan auki
+# vinkataan portin 3000 olevan se mikä halutaan auki
 EXPOSE 3000
